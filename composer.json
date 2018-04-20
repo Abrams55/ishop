@@ -1,0 +1,16 @@
+{
+  "autoload": {
+    "psr-4": {
+      "ishop\\": "vendor/ishop/core",
+      "app\\": "app"
+    }
+  },
+  "config" : {
+    "github-oauth" : {
+      "github.com" : "3a408024a516a5fd1d9275d6832cacdb2a2cc2d1"
+    }
+  },
+  "require": {
+    "gabordemooij/redbean": "dev-master"
+  }
+}
